@@ -1,0 +1,19 @@
+#include<stdio.h>
+
+int main(){
+    int grade;
+    scan_f("%d",&grade);
+    if(grade<0 || grade>100)
+    {printf("输入成绩有误\n");}
+        else if(90<=grade && grade<=100)
+             {printf("A\n");}
+             else if(80<=grade && grade<90)
+            {printf("B\n");}
+             else if(70<=grade && grade<80)
+             {printf("C\n");}
+             else if(60<=grade && grade<70)
+             {printf("D\n");}
+             else
+             {printf("E\n");}
+     return 0;
+} 
