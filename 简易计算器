@@ -1,0 +1,23 @@
+#include<stdio.h>
+
+int main(){
+    int a;
+    int b;
+    
+        #define MIN_a 0
+        #define MAX_a 100
+        #define MIN_b 1
+        #define MAX_b 100
+    
+        scanf("%d %d",&a,&b);
+        printf("%d + %d = %d\n",a,b,a+b);
+        printf("%d - %d = %d\n",a,b,a-b);
+        printf("%d * %d = %d\n",a,b,a*b);
+    if (a%b==0){
+        printf("%d / %d = %d\n",a,b,a/b);}
+        else {
+            
+     double c;
+        printf("%d / %d = %.2f\n",a,b,c);}
+        return 0;
+}
