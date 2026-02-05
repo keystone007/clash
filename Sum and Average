@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main(){
+    int a,b,c,d;
+    int Sum;
+    double Average;
+    scanf("%d %d %d %d",&a,&b,&c,&d);
+    Sum = a+b+c+d;
+    Average = (a+b+c+d)/4.0;
+        printf("Sum = %d\n",Sum);
+        printf("Average = %lf\n",Average);
+        return 0;
+}
